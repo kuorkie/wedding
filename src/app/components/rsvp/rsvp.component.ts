@@ -25,11 +25,11 @@ export class RsvpComponent {
       addDoc(
         this.fireCollection,rsvpData
       ).then(() => {
-        alert('Спасибо за ваш ответ!');
+        alert('Жауабыңызға рақмет!');
         this.rsvpForm.reset();
       }).catch((error) => {
         console.error('Ошибка при добавлении данных:', error);
-        alert('Что-то пошло не так, попробуйте снова!');
+        alert('Қайтадан теріп көріңіз!');
       });
     }
   }
