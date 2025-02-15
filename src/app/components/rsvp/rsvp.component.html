@@ -1,0 +1,26 @@
+
+<div class="rsvp-form">
+  <h2>Тойға қатысуыңыз</h2>
+  <form [formGroup]="rsvpForm" (ngSubmit)="onSubmit()">
+    <div>
+      <label for="name">АТЫ-ЖӨНІҢІЗ ЖҰБЫҢЫЗБЕН КЕЛЕТІН БОЛСАҢЫЗ, ЕСІМДЕРІҢІЗДІ БІРГЕ ЖАЗУЫҢЫЗДЫ ӨТІНЕМІЗ):
+      </label>
+      <input id="name" formControlName="name" class="custom-input" type="text" required>
+    </div>
+
+    <div style="display: flex;flex-direction: column;font-size: 20px">
+    <div>
+      <input type="radio" class="in" value="true"  formControlName="attend"> <label>Келемін</label>
+
+    </div>
+
+    <div>
+      <input type="radio"class="in" value="false"  formControlName="attend"><label>Өкінішке орай,келе алмаймын</label>
+    </div>
+
+
+    </div>
+
+    <button type="submit" [disabled]="rsvpForm.invalid">Отправить</button>
+  </form>
+</div>

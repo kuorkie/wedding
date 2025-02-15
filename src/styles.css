@@ -1,1 +1,22 @@
+
+@font-face {
+  font-family: "Lobster";
+  src: url("/vAsylm02.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "vAsylm13";
+  src: url("/vAsylm13.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "vAcadei";
+  src: url("/vAcadei.ttf") format("truetype");
+  font-weight: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 /* You can add global styles to this file, and also import other style files */
