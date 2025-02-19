@@ -9,7 +9,7 @@ import {RsvpComponent} from '../rsvp/rsvp.component';
   styleUrl: './welcome.component.css'
 })
 export class WelcomeComponent {
-  isMobile:boolean = true
+  isMobile:boolean = window.innerWidth < 768
   constructor() {
     window.addEventListener('resize', () => {
       this.isMobile = window.innerWidth < 768;
