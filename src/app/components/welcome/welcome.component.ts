@@ -9,15 +9,18 @@ import {RsvpComponent} from '../rsvp/rsvp.component';
   styleUrl: './welcome.component.css'
 })
 export class WelcomeComponent {
-ngOnInit() {
-let  i = document.getElementById('text')
-  setTimeout(()=>{
-    if(i){
-      i.style.opacity = "0.85"
-    }
-  },2600)
+  isMobile:boolean = window.innerWidth < 768
+  constructor() {
 
-}
+  }
+  ngOnInit() {
+    let  i = document.getElementById('text')
+    setTimeout(()=>{
+      if(i){
+        i.style.opacity = "0.85"
+      }
+    },2600)
+  }
 
 
 }

@@ -1,14 +1,14 @@
 
 <div class="rsvp-form">
   <h2>Тойға қатысуыңыз</h2>
-  <form [formGroup]="rsvpForm" (ngSubmit)="onSubmit()">
-    <div>
-      <label for="name">АТЫ-ЖӨНІҢІЗ ЖҰБЫҢЫЗБЕН КЕЛЕТІН БОЛСАҢЫЗ, ЕСІМДЕРІҢІЗДІ БІРГЕ ЖАЗУЫҢЫЗДЫ ӨТІНЕМІЗ):
+  <form [formGroup]="rsvpForm" (ngSubmit)="onSubmit()" style="font-size: 20px;">
+    <div >
+      <label for="name" class="in">Аты-жөніңіз жұбыңызбен келетін болсаңыз, есімдеріңізді бірге жазуыңызды өтінеміз:
       </label>
       <input id="name" formControlName="name" class="custom-input" type="text" required>
     </div>
 
-    <div style="display: flex;flex-direction: column;font-size: 20px">
+    <div style="display: flex;flex-direction: column;">
     <div>
       <input type="radio" class="in" value="true"  formControlName="attend"> <label>Келемін</label>
 
