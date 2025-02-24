@@ -1,11 +1,11 @@
 
-<div id="body" xmlns="http://www.w3.org/1999/html" >
+<div id="body" xmlns="http://www.w3.org/1999/html" *ngIf="isMobile" >
 <div class="jk">
   <div class="welcome" >
     <div style="display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-grow: 0.65;">
+    flex-grow: 0.6;">
 
       <div  id="text">
 
@@ -152,14 +152,14 @@
 
   </div>
   </div>
-
-    <div class="item1">
+<div class="jk">
+  <div class="item1">
               <span style="font-family:'vAcadei'!important;font-size: 23px;text-align: center;color: maroon;margin-top: 150px;padding: 10px" >
 
                 Мекен-жайымыз:<br><br><br>
                "Ханшайым" мейрамханасы <br>
                 Алматы қаласы, Бесағаш, Талғар тас жолы,<br> Райымбек батыр көшесі, 145а<br><br><br>
-               <a href="https://go.2gis.com/xY4YV"> <img src="/img_3.png" height="60" style="border-radius: 15px"/><br><br><br>
+               <a href="https://go.2gis.com/xY4YV" title="Батырманы басыңыз"> <img src="/img_3.png" height="60" style="border-radius: 15px"/><br><br><br>
                </a>
                 Той иелері:<br>
                 ТАЛҒАТ-СӘУЛЕШ
@@ -167,7 +167,9 @@
                    <img src="/25.png" width="300" />
                 </span>
 
-    </div>
+  </div>
+</div>
+
   <div class="item1">
       <app-rsvp></app-rsvp>
 
