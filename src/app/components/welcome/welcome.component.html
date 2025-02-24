@@ -1,12 +1,15 @@
 
-<div id="body" xmlns="http://www.w3.org/1999/html" *ngIf="isMobile">
+<div id="body" xmlns="http://www.w3.org/1999/html" >
 <div class="jk">
   <div class="welcome" >
     <div style="display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-grow: 1;">
+    flex-grow: 0.65;">
+
       <div  id="text">
+
+
         <span>
           Елдар
         <br>
@@ -23,8 +26,10 @@
       </div>
     </div>
     <div class="ico">
-      Астыға түс
-      <img src="/11.png" height="50">
+      <div>
+        <img src="/11.png" height="40" width="50" >
+      </div>
+
 
     </div>
     </div>
@@ -56,27 +61,88 @@
   </div>
   <div class="jk">
   <div id="content">
-        <span style="font-family:'vAcadei'!important;font-size: 23px;text-align: center;color: maroon;margin-top: 250px;padding: 10px" >
+        <span style="font-family:'vAcadei'!important;font-size: 23px;text-align: center;color: maroon;margin-top: 350px;padding: 10px" >
 <!--       <img src="/img/455.png" style="opacity: 0.10;position: absolute;" class="rot" height="350px"/>-->
 
      Той салтанаты:<br>
-          <b>5 шілде 2025 жылы<br>
-           сағат 18:00<br><br><br></b>
-          Мекен-жайымыз:<br>
-         "Ханшайым" мейрамханасы <br>
-          Алматы қаласы, Бесағаш, Талғар тас жолы,<br> Райымбек батыр көшесі, 145а<br><br><br>
-          Той иелері:<br>
-          ТАЛҒАТ-СӘУЛЕШ
+             <div class="date-container">
+        <div class="side-text">
+            <hr>
+            <span>сенбі</span>
+            <hr>
+        </div>
+        <div class="center-text">
+            <span class="month">шілде</span>
+            <span class="day">05</span>
+            <span class="year">2025</span>
+        </div>
+        <div class="side-text">
+            <hr>
+            <span>18:00</span>
+            <hr>
+        </div>
+    </div>
+
+
+    <div class="calendar">
+        <h2>ШІЛДЕ <span>2025</span></h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ДС</th>
+                    <th>СС</th>
+                    <th>СР</th>
+                    <th>БС</th>
+                    <th>ЖМ</th>
+                    <th>СН</th>
+                    <th>ЖС</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td><td>2</td><td>3</td><td>4</td>
+                    <td class="heart"><span>5</span></td><td>6</td><td>7</td>
+                </tr>
+                <tr>
+                    <td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td>
+                </tr>
+                <tr>
+                    <td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td>
+                </tr>
+                <tr>
+                    <td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td>
+                </tr>
+                <tr>
+                    <td>29</td><td>30</td><td>31</td><td></td><td></td><td></td><td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
     </span>
 
   </div>
   </div>
 
     <div class="item1">
+              <span style="font-family:'vAcadei'!important;font-size: 23px;text-align: center;color: maroon;margin-top: 150px;padding: 10px" >
+
+                Мекен-жайымыз:<br><br><br>
+               "Ханшайым" мейрамханасы <br>
+                Алматы қаласы, Бесағаш, Талғар тас жолы,<br> Райымбек батыр көшесі, 145а<br><br><br>
+               <a href="https://go.2gis.com/xY4YV"> <img src="/img_3.png" height="60" style="border-radius: 15px"/><br><br><br>
+               </a>
+                Той иелері:<br>
+                ТАЛҒАТ-СӘУЛЕШ
+
+                   <img src="/25.png" width="300" />
+                </span>
+
+    </div>
+  <div class="item1">
       <app-rsvp></app-rsvp>
 
     </div>
-
 </div>
 <div  *ngIf="!isMobile">
     <div class="welcome" >

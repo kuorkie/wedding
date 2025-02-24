@@ -14,7 +14,7 @@ export class RsvpComponent {
   constructor(private fb: FormBuilder) {
     this.rsvpForm = this.fb.group({
       name: ['', Validators.required],
-      attend: [false, Validators.required]
+      attend: ['', Validators.required]
     });
   }
   fireCollection =  collection(this.firestore,'wedding')
