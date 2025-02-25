@@ -1,0 +1,27 @@
+
+<div class="music-container">
+
+  <!-- Круг с текстом -->
+    <svg viewBox="0 0 200 200" class="circle-svg">
+      <g class="rotating-group" [class.rotate]="isPlaying">
+      <defs>
+        <path id="circlePath" d="M 100, 100 m -75, 0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0" />
+      </defs>
+      <text class="circle-text">
+        <textPath xlink:href="#circlePath">
+          Музыканы қосу үшін үстінен басыңыз
+        </textPath>
+      </text>
+      </g>
+    </svg>
+    <button class="play-button" (click)="togglePlayPause()">
+      <img  *ngIf="!isPlaying"  src="/img/665.png" height="30" width="30"/>
+     <img  *ngIf="isPlaying"  src="/img/pause.png" height="30" width="30"/>
+    </button>
+  </div>
+
+  <!-- Аудиоплеер -->
+  <audio #audioElement >
+    <source src="/img/music.mp3" type="audio/mpeg" />
+    Ваш браузер не поддерживает аудио.
+  </audio>

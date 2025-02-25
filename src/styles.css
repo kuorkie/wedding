@@ -1,17 +1,29 @@
 
 @font-face {
   font-family: "Lobster";
-  src: url("/vAsylm02.ttf") format("truetype");
+  src: url("/img/vAsylm02.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "vAcadebi";
+  src: url("/img/vAcadebi.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "vCenti";
+  src: url("/img/vCenti.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face {
   font-family: "vAsylm13";
-  src: url("/vAsylm13.ttf") format("truetype");
+  src: url("/img/vAsylm13.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face {
   font-family: "vAcadei";
-  src: url("/vAcadei.ttf") format("truetype");
+  src: url("/img/vAcadei.ttf") format("truetype");
   font-weight: normal;
 }
 body {
