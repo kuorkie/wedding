@@ -1,6 +1,6 @@
 .welcome {
   background: url("/img/48.png") no-repeat center;
-  background-size: 140%;
+  background-size: 100%;
   background-position: right;
   background-position-y: top;
   display: flex;

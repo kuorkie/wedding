@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {RsvpComponent} from '../rsvp/rsvp.component';
 import {MusicPlayerComponent} from '../music-player/music-player.component';
+import {NgxSpinnerModule} from 'ngx-spinner';
 
 @Component({
   selector: 'app-welcome',
-  imports: [CommonModule,RsvpComponent,MusicPlayerComponent],
+  imports: [CommonModule,RsvpComponent,MusicPlayerComponent,NgxSpinnerModule],
   templateUrl: './welcome.component.html',
   styleUrl: './welcome.component.css'
 })
