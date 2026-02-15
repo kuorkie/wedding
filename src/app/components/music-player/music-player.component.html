@@ -15,13 +15,13 @@
       </g>
     </svg>
     <button class="play-button" (click)="togglePlayPause()">
-      <img  *ngIf="!isPlaying"  src="/img/665.png" height="30" width="30"/>
-     <img  *ngIf="isPlaying"  src="/img/pause.png" height="30" width="30"/>
+      <img *ngIf="!isPlaying" src="assets/img/665.png" height="30" width="30"/>
+     <img *ngIf="isPlaying" src="assets/img/pause.png" height="30" width="30"/>
     </button>
   </div>
 
   <!-- Аудиоплеер -->
   <audio #audioElement >
-    <source src="/img/music.mp3" type="audio/mpeg" />
+    <source src="assets/img/music.mp3" type="audio/mpeg" />
     Ваш браузер не поддерживает аудио.
   </audio>

@@ -4,7 +4,7 @@
   font-style: normal;
 }
 .welcome {
-  background: url("/img/48.png") no-repeat center;
+  background: url("../../../assets/img/48.png") no-repeat center;
   background-size: 100%;
   background-position: right;
   background-position-y: top;
@@ -228,7 +228,7 @@ th {
   opacity: 0.6;
 }
 #body{
-  background: url("/img/144.jpg") no-repeat center;
+  background: url("../../../assets/img/144.jpg") no-repeat center;
   background-size: cover;
   max-height: 500vh;
   width: 100%;
@@ -238,7 +238,7 @@ th {
 
 }
 #content {
-  background: url("/img/145.png") no-repeat center;
+  background: url("../../../assets/img/145.png") no-repeat center;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -250,7 +250,7 @@ th {
   overflow: hidden;
 
 }#content1 {
-  background: url("/img/6678.png") no-repeat center;
+  background: url("../../../assets/img/6678.png") no-repeat center;
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -270,7 +270,7 @@ th {
   align-items: center;
  }
 #content2 {
-  background: url("/img/45.png") no-repeat center;
+  background: url("../../../assets/img/45.png") no-repeat center;
   background-size: cover;
   display: flex;
   position: relative;
